@@ -10,26 +10,29 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.2].define(version: 2025_04_08_141148) do
+ActiveRecord::Schema[7.2].define(version: 2025_04_23_161028) do
   create_table "mobiles", force: :cascade do |t|
     t.string "brand", null: false
     t.string "model", null: false
     t.date "release_date"
-    t.float "display_size"
+    t.string "display_size"
     t.string "resolution"
     t.string "processor"
-    t.integer "ram"
-    t.integer "storage"
-    t.float "camera_main"
-    t.float "camera_front"
-    t.integer "battery"
+    t.string "ram"
+    t.string "storage"
+    t.string "camera_main"
+    t.string "camera_front"
+    t.string "battery"
     t.string "os_version"
-    t.decimal "price"
+    t.string "price"
     t.string "image_url"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
+
+  create_table "scrapers", force: :cascade do |t|
+    t.string "url"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
 end
-
-        #["Network", "Launch", "Body", "Display", "Platform", "Memory", "Main Camera", "Selfie camera", "Sound", "Comms", "Features", "Battery", "Misc"]
-

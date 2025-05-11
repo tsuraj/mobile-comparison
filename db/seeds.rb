@@ -78,6 +78,38 @@ Mobile.create([
     os_version: "Android 14",
     price: 1800,
     image_url: "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-nord-2t-5g-2.jpg"
-  }
+  },
+  {
+    brand: "Readme ",
+    model: "Readme 10A",
+    release_date: "2017-02-17",
+    display_size: 5.8,
+    resolution: "3088x1440",
+    processor: "Snapdragon 8 Gen 2",
+    ram: 4,
+    storage: 32,
+    camera_main: 28,
+    camera_front: 4,
+    battery: 2400,
+    os_version: "Android 14",
+    price: 700,
+    image_url: "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-nord-2t-5g-2.jpg" 
+   },
+   {
+    brand: "Readme ",
+    model: "Readme 9A",
+    release_date: "2017-02-17",
+    display_size: 5.8,
+    resolution: "3088x1080",
+    processor: "Snapdragon 8 Gen 3",
+    ram: 4,
+    storage: 32,
+    camera_main: 28,
+    camera_front: 4,
+    battery: 2400,
+    os_version: "Android 14",
+    price: 700,
+    image_url: "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-nord-2t-5g-2.jpg" 
+   }
   # Add more sample data...
 ])

@@ -15,6 +15,7 @@ Rails.application.routes.draw do
           get :compare
         end
       end
+      get '/scrape', to: 'mobiles#mobile_scrape'
     end
   end
 end
